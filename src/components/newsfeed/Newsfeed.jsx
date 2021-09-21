@@ -1,10 +1,13 @@
 import "./newsfeed.css"
+import Share from "../share/Share"
 
 
 export default function Newsfeed() {
     return (
         <div className="newsfeed">
-            Pokemon News            
+            <div className="feedWrapper">
+                   <Share />
+            </div>           
         </div>
     )
 }

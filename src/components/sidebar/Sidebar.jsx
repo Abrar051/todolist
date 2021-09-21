@@ -13,6 +13,7 @@ export default function sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
+                <p></p>
                 <ul className="sidebarList">
                     <li className="sidebarListItem">
                         <RssFeedIcon className="sidebarIcon"/>
@@ -51,9 +52,41 @@ export default function sidebar() {
                         <span className="sidebarListItemText">Event</span>
                     </li>
                 </ul>
-                <button className="sidebarButton">Show more</button>
+                <button className="sidebarButton">Friends</button>
                 <hr className="sidebarhr"/>
                 <ul className="sidebarFriendList">
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
+                        <span className="sidebarFriendName">Blastoise</span>
+                    </li>
                     <li className="sidebarFriend">
                         <img className="sidebarFriendImg" src="/assets/person/2.png" alt=""/>
                         <span className="sidebarFriendName">Blastoise</span>

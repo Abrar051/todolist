@@ -1,4 +1,8 @@
 .newsfeed{
     flex:5.5;
+    background-color: rgb(0, 0, 0);
 }
 
+.feedWrapper{
+    padding: 10px;
+}

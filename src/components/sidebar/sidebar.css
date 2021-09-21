@@ -1,8 +1,22 @@
 .sidebar {
     flex: 3;
     height: calc(100vh - 50px);
+    overflow-y: scroll;
+    background-color: rgb(170, 207, 212);
   }
-  
+
+ ::-webkit-scrollbar {
+     width: 5px;
+ } 
+
+ ::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(42, 219, 219);
+} 
+ 
 
 .sidebarList{
     padding: 0;

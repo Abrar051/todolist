@@ -10,7 +10,6 @@ export default function Home(){
     return (
         <>
         <Topbar/>
-        <p></p>
         <div className="homeContainer">
             <Sidebar />
             <Newsfeed/>
