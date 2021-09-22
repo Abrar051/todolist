@@ -1,6 +1,13 @@
 .newsfeed{
     flex:5.5;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(147, 172, 175);
+
+}
+
+.postfeed{
+    flex: 5.5;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
 }
 
 .feedWrapper{
